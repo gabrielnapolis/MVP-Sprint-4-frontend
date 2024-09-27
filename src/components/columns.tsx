@@ -36,7 +36,7 @@ export const columns: ColumnDef<PatientColumns>[] = [
   },
   {
     accessorKey: "name",
-    header: "Name",
+    header: "name",
   },
   {
     accessorKey: "age",
@@ -92,7 +92,7 @@ export const columns: ColumnDef<PatientColumns>[] = [
   },
   {
     accessorKey: "target",
-    header: "Resultado",
+    header: "target",
   },
   {
     header: "Ações",
