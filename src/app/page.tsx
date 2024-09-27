@@ -39,7 +39,7 @@ export default async function Home() {
           </Card>
           <h1 className="flex items-cernter justify-center mt-10 mb-2 font-bold text-2xl">Resultado</h1>
           <span ><strong>Target:</strong> Indicates the presence or absence of heart disease (1 = presence, 0 = absence).</span><br/>
-          <span ><strong>Alvo:</strong>Indica a presença ou ausência de doença cardíaca (1 = presença, 0 = ausência).</span>
+          <span ><strong>Alvo:</strong> Indica a presença ou ausência de doença cardíaca (1 = presença, 0 = ausência).</span>
           <div className="flex items-center justify-center mt-10 bg-white">
             <DataTable columns={columns} data={data} />
           </div>

@@ -164,10 +164,10 @@ export default function CreatePatient() {
                   </FormControl>
                   <SelectContent>
                     <SelectGroup>
-                      <SelectItem value="0">Angina Típica</SelectItem>
-                      <SelectItem value="1">Angina Atípica</SelectItem>
-                      <SelectItem value="2">Dor não Anginosa</SelectItem>
-                      <SelectItem value="3">Assintomático</SelectItem>
+                      <SelectItem value="0">0 - Angina Típica</SelectItem>
+                      <SelectItem value="1">1 - Angina Atípica</SelectItem>
+                      <SelectItem value="2">2 - Dor não Anginosa</SelectItem>
+                      <SelectItem value="3">3 - Assintomático</SelectItem>
                     </SelectGroup>
                   </SelectContent>
                 </Select>
@@ -274,12 +274,12 @@ export default function CreatePatient() {
                     </FormControl>
                     <SelectContent>
                       <SelectGroup>
-                        <SelectItem value="0">Normal</SelectItem>
+                        <SelectItem value="0">0 - Normal</SelectItem>
                         <SelectItem value="1">
-                          Anormalidade da onda ST-T
+                          1 - Anormalidade da onda ST-T
                         </SelectItem>
                         <SelectItem value="2">
-                          Possível ou definitiva hipertrofia ventricular
+                          2 - Possível ou definitiva hipertrofia ventricular
                           esquerda
                         </SelectItem>
                       </SelectGroup>
@@ -385,9 +385,9 @@ export default function CreatePatient() {
                     </FormControl>
                     <SelectContent>
                       <SelectGroup>
-                        <SelectItem value="0">Ascendente</SelectItem>
-                        <SelectItem value="1">Plano</SelectItem>
-                        <SelectItem value="2">Descendente</SelectItem>
+                        <SelectItem value="0">0 - Ascendente</SelectItem>
+                        <SelectItem value="1">1 - Plano</SelectItem>
+                        <SelectItem value="2">2 - Descendente</SelectItem>
                       </SelectGroup>
                     </SelectContent>
                   </Select>
@@ -449,9 +449,9 @@ export default function CreatePatient() {
                     </FormControl>
                     <SelectContent>
                       <SelectGroup>
-                        <SelectItem value="1">Normal</SelectItem>
-                        <SelectItem value="2">Defeito Fixo</SelectItem>
-                        <SelectItem value="3">Defeito Reversível</SelectItem>
+                        <SelectItem value="1">1 - Normal</SelectItem>
+                        <SelectItem value="2">2 - Defeito Fixo</SelectItem>
+                        <SelectItem value="3">3 - Defeito Reversível</SelectItem>
                       </SelectGroup>
                     </SelectContent>
                   </Select>
