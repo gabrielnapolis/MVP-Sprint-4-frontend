@@ -9,6 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { deletePatient } from "./actions";
 
 export type PatientColumns = {
   id: number;
@@ -109,7 +110,9 @@ export const columns: ColumnDef<PatientColumns>[] = [
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
-            <DropdownMenuItem>Deletar</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => deletePatient(item.id)}>
+              Deletar
+            </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       );
